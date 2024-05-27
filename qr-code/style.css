@@ -25,6 +25,7 @@ body {
 .qr-code {
     width: 100%;
     border-radius: 10px;
+    vertical-align: middle;
 }
 
 .title {
