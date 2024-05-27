@@ -90,7 +90,11 @@ body {
     }
 
     .product-content {
-        padding: 34px;
+        padding: 30px;
+    }
+
+    .product-category {
+        font-size: 13px;
     }
 
     .product-img {
@@ -98,11 +102,16 @@ body {
     }
 
     .product-name {
+        line-height: 1;
         margin-top: 27px;
     }
     
     .product-desc {
+        font-size: 13px;
+        line-height: 1.5;
+        color: #96979B;
         margin-top: 35px;
+        margin-right: 20px;
     }
 
     .pricing {
