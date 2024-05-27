@@ -94,7 +94,7 @@ body {
     }
 
     .product-category {
-        font-size: 13px;
+        font-size: 11px;
     }
 
     .product-img {
@@ -103,7 +103,7 @@ body {
 
     .product-name {
         line-height: 1;
-        margin-top: 27px;
+        margin-top: 250px;
     }
     
     .product-desc {
@@ -112,10 +112,6 @@ body {
         color: #96979B;
         margin-top: 35px;
         margin-right: 20px;
-    }
-
-    .pricing {
-        margin-top: 38px;
     }
 
     .btn {
