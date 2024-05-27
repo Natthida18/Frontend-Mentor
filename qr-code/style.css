@@ -11,6 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    text-align: center;
 }
 
 .container {
@@ -19,13 +20,6 @@ body {
     width: 319px;
     border-radius: 26px;
     box-shadow: 5px 5px 120px 1px rgba(0, 0, 0, 0.2);
-}
-
-.wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    text-align: center;
 }
 
 .qr-code {
@@ -38,6 +32,7 @@ body {
     font-weight: 700;
     line-height: 1.2;
     color: hsl(218, 44%, 22%);
+    margin-top: 35px;
 }
 
 .content {
@@ -45,4 +40,5 @@ body {
     font-weight: 400;
     letter-spacing: 0.5px;
     color: hsl(215, 12%, 65%);
+    margin-top: 22px;
 }
