@@ -17,7 +17,6 @@ body {
 .container {
     margin: 28px 16px;
     border-radius: 8px;
-    box-shadow: 5px 5px 120px 1px rgba(0, 0, 0, 0.2);
     background-color: #ffffff;
 }
 
@@ -33,6 +32,7 @@ body {
 }
 
 .product-category {
+    font-weight: 500;
     color: #7E7E86;
     letter-spacing: 0.26rem;
     text-transform: uppercase;
@@ -107,11 +107,9 @@ body {
     }
     
     .product-desc {
-        font-size: 13px;
         line-height: 1.5;
         color: #96979B;
         margin-top: 35px;
-        margin-right: 20px;
     }
 
     .btn {
