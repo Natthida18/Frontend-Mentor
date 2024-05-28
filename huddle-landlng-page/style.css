@@ -80,7 +80,7 @@ body {
     }
 
     .title {
-        margin: 0;
+        margin-top: 47px;
     }
 
 }
@@ -98,7 +98,6 @@ body {
     .container {
         display: grid;
         grid-template-columns: 55% 45%;
-        align-items: center;
         gap: 60px;
         margin-top: 60px;
     }
@@ -119,7 +118,7 @@ body {
 
     .btn {
         font-size: 18px;
-        padding: 20px 0;
+        padding: 18px;
         width: 200px;
     }
 
@@ -133,4 +132,10 @@ body {
         height: 40px;
     }
 
+}
+
+@media only screen and (min-width: 1315px) {
+    body {
+        background-size: contain;
+    }
 }
