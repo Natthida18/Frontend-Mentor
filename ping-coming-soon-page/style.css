@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Libre Franklin", sans-serif;
+    text-align: center;
+    padding: 28px;
+}
+
+.header {
+    margin-top: 57px;
+}
+
+.container {
+    width: min(100%, 640px);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+}
+
+.title {
+    font-size: 1.25rem; /* 20 px */
+    font-weight: 300;
+    color: hsl(0, 0%, 59%);
+}
+
+.sub-title {
+    font-size: 0.75rem; /* 12 px */
+    color: #2D3037;
+    margin-top: 26px;
+}
+
+.input, .btn-submit {
+    width: 100%;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.input {
+    border: 1px solid hsl(223, 100%, 88%);
+    margin-top: 33px;
+}
+
+.input::placeholder {
+    color: hsl(223, 100%, 88%);
+}
+
+.btn-submit {
+    font-weight: 600;
+    border: none;
+    color: #ffffff;
+    background-color: hsl(223, 87%, 63%);
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.image {
+    width: 100%;
+    margin-top: 70px;
+}
+
+.footer-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+    margin-top: 120px;
+}
+
+.fa-brands {
+    color: hsl(223, 87%, 63%);
+    border: 1px solid hsl(223, 100%, 88%);
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    align-content: center;
+}
+
+.copyright {
+    font-size: 0.625rem; /* 10 px */
+    color: hsl(0, 0%, 59%);
+    margin-top: 29px;
+}
+
+.error {
+    font-size: 0.625rem;
+    color: hsl(354, 100%, 66%);
+}
+
+.error-margin {
+    font-style: italic;
+    margin-top: 8px;
+}
