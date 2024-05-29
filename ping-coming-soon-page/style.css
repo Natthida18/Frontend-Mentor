@@ -33,6 +33,10 @@ body {
     margin-top: 26px;
 }
 
+.subscribe {
+    margin-top: 33px;
+}
+
 .input, .btn-submit {
     width: 100%;
     border-radius: 20px;
@@ -41,7 +45,6 @@ body {
 
 .input {
     border: 1px solid hsl(223, 100%, 88%);
-    margin-top: 33px;
 }
 
 .input::placeholder {
@@ -94,4 +97,31 @@ body {
 .error-margin {
     font-style: italic;
     margin-top: 8px;
+}
+
+@media only screen and (min-width: 700px) { 
+    .subscribe {
+        display: flex;
+        gap: 16px;
+    }
+
+    .title {
+        font-size: 50px;
+    }
+
+    .sub-title {
+        font-size: 20px;
+    }
+
+    .input, .btn-submit {
+        margin-top: 0;
+    }
+
+    .input {
+        width: 70%;
+    }
+
+    .btn-submit {
+        width: 30%;
+    }
 }
