@@ -27,6 +27,11 @@ body {
     color: hsl(0, 0%, 59%);
 }
 
+.bold {
+    color: #000000;
+    font-weight: 700;
+}
+
 .sub-title {
     font-size: 0.75rem; /* 12 px */
     color: #2D3037;
@@ -37,9 +42,10 @@ body {
     margin-top: 33px;
 }
 
-.input, .btn-submit {
+.input,
+.btn-submit {
     width: 100%;
-    border-radius: 20px;
+    border-radius: 25px;
     padding: 15px;
 }
 
@@ -99,29 +105,35 @@ body {
     margin-top: 8px;
 }
 
-@media only screen and (min-width: 700px) { 
+@media only screen and (min-width: 700px) {
     .subscribe {
-        display: flex;
+        display: grid;
+        grid-template-columns: 65% 35%;
         gap: 16px;
     }
 
     .title {
-        font-size: 50px;
+        font-size: 3.063rem; /* 49 px */
     }
 
     .sub-title {
-        font-size: 20px;
+        font-size: 1.25rem; /* 20 px */
     }
 
     .input, .btn-submit {
         margin-top: 0;
+        height: 56px;
     }
 
     .input {
-        width: 70%;
+        padding: 21px 30px;
     }
 
-    .btn-submit {
-        width: 30%;
+    .error {
+        text-align: left;
+    }
+
+    .error-margin {
+        margin-left: 30px;
     }
 }
