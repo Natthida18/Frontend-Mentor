@@ -108,7 +108,7 @@ body {
 @media only screen and (min-width: 700px) {
     .subscribe {
         display: grid;
-        grid-template-columns: 65% 35%;
+        grid-template-columns: 6fr 3fr;
         gap: 16px;
     }
 
