@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Karla";
+    padding: 72px 32px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: min(100%, 635px);
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    box-shadow: 5px 5px 120px 1px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+    width: 100%;
+}
+
+.content-1 {
+    padding: 33px 24px 37px 24px;
+}
+
+.content-2 {
+    background-color: hsl(179, 62%, 43%);
+    color: #ffffff;
+    padding: 29px 24px 24px 24px;
+}
+
+.content-3 {
+    background-color: #4ABEBD;
+    color: #ffffff;
+    padding: 29px 25px 26px 25px;
+    border-radius: 0 0 5px 5px;
+}
+
+.price span {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.btn {
+    font-family: "Karla";
+    font-size: 1rem;
+    font-weight: 500;
+    width: 100%;
+    color: #ffffff;
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    border-radius: 5px;
+    padding: 20px 0;
+}
+
+.description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: hsl(204, 43%, 93%);
+    margin-top: 23px;
+}
+
+@media only screen and (min-width: 1000px) {
+    .container {
+        height: 475px;
+    }
+
+    .content-1 {
+        height: 216px;
+    }
+
+    .content-1.title {
+        font-size: 24px;
+        color: hsl(179, 62%, 43%);        
+    }
+
+    .title-1 {
+        font-size: 24px;
+        color: hsl(179, 62%, 43%);
+    }
+
+    .period {
+        font-size: 18px;
+        font-weight: 500;
+        color: hsl(71, 73%, 54%);
+        margin-top: 28px;
+    }
+
+    .desc {
+        color: hsl(218, 22%, 67%);
+        margin-top: 18px;
+    }
+
+    .content-2 {
+        border-radius: 0 0 0 10px;
+    }
+
+    .content-3 {
+        border-radius: 0 0 10px;
+    }
+
+    .content-wrapper {
+        display: flex;
+        height: 259px;
+    }
+
+    .price {
+        margin-top: 28px;
+        color: hsl(204, 43%, 93%);
+        display: flex;
+        align-items: center;
+        gap: 18px;
+    }
+
+    .btn {
+        margin-top: 28px;
+    }
+}
