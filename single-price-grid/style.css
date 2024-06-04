@@ -73,6 +73,10 @@ body {
         height: 475px;
     }
 
+    .content {
+        padding: 44px 39px;
+    }
+
     .content-1 {
         height: 216px;
     }
@@ -109,7 +113,7 @@ body {
 
     .content-wrapper {
         display: flex;
-        height: 259px;
+        /* height: 259px; */
     }
 
     .price {
